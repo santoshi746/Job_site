@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(to right,pink, navy);
+}
+.navbar{
+    background:linear-gradient(to right,pink, navy);
+}
+.carousel-image{
+    height: 700px;
+}
+.card-img-top{
+    width: 70px !important;
+}
+.card-6{
+    background:linear-gradient(to right,rgba(0, 128, 128, 0.8), rgba(128, 0, 128, 0.8));
+    box-shadow: 10px 10px 5px white;
+    color: white;
+}
+.card{
+padding: 20px;
+border-radius: 0%;
+cursor: pointer;
+}
+.card:hover{
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.about{
+padding: 50px 50px;
+}
+.head-1{
+font-family: serif;
+font-weight: 900;
+font-size: 45px;
+text-transform: capitalize;
+line-height: 3rem;
+}
+.para{
+font-size: 1rem;
+color: black;
+font-weight: 400;
+line-height: 1.75rem;
+letter-spacing: 1px;
+}
+.about .card, 
+.about .card img{
+border-radius: 0.625rem;
+height: 360px;
+}
+.about .paragraph{
+padding-left: 2rem;
+}
+.agency{
+padding-top: 3rem;
+}
+.image-2{
+border-radius: 50%;
+height: 250px !important;
+width: 250px !important;
+position: relative;
+left: 80px;
+top: -80px;
+object-fit: cover;
+}
+.card-2{
+    background: linear-gradient(to right, teal , purple);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+color: white;
+border-radius: 0;
+cursor: pointer;
+margin-top: 100px !important;
+}
+.card-2:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card-body-2{
+margin-top: -50px;
+}
+.card-body-middle-2 .h3{
+    margin-top: 20px;
+}
+.card-body-middle-2{
+    margin-bottom: 13px;
+}
+.bi{
+font-size: 25px;
+}
+.content .content-para{
+    font-size: 20px;
+}
+.modal-content{
+    color: white;
+    background: linear-gradient(to right, teal, purple);
+}
+
+@media only screen and (max-width: 600px) {
+.image-2{
+
+left: 48px !important;
+
+}
+}
