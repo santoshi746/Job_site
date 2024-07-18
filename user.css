@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(to right, pink,navy) ;
+}
+.container{
+    background-color: #ECB176;
+    box-shadow:20px 20px 20px #ffffffd2 ;
+    background:linear-gradient(to right, pink,navy) ;
+}
+.img img{
+    width: 180px; 
+    height: 200px;
+}
+#experience-cand{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .img img{
+        display: block;
+        margin: auto;
+    }
+}
